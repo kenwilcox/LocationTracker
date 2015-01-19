@@ -29,6 +29,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
     manager.requestWhenInUseAuthorization()
     manager.startUpdatingLocation()
     manager.pausesLocationUpdatesAutomatically = true
+    manager.activityType = CLActivityType.Fitness
     
     // Setup Map View
     theMap.delegate = self
@@ -71,5 +72,11 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
     }
     return nil
   }
+  
+  func startSignificantChangeUpdates() {
+    self.manager.startMonitoringSignificantLocationChanges()
+
+  }
+  
 }
 
