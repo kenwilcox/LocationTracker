@@ -21,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </mapView>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999964" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ikj-q8-Ogu">
-                                <rect key="frame" x="16" y="522" width="568" height="70"/>
+                                <rect key="frame" x="16" y="578" width="568" height="14"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -35,10 +35,21 @@
                             <constraint firstItem="Ikj-q8-Ogu" firstAttribute="centerX" secondItem="u6Q-EF-Z7k" secondAttribute="centerX" id="B1F-tp-PIk"/>
                             <constraint firstItem="u6Q-EF-Z7k" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Dxn-V4-oMy"/>
                             <constraint firstItem="Ikj-q8-Ogu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="KO6-4L-4ee"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ikj-q8-Ogu" secondAttribute="bottom" constant="8" id="QTG-NM-lP4"/>
+                            <constraint firstItem="Ikj-q8-Ogu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Tbt-JI-xbh"/>
+                            <constraint firstItem="Ikj-q8-Ogu" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="UQs-lW-jh0"/>
                             <constraint firstItem="u6Q-EF-Z7k" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="c45-5f-JEO"/>
                             <constraint firstItem="u6Q-EF-Z7k" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="pGL-IQ-E7I"/>
                             <constraint firstItem="Ikj-q8-Ogu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="502" id="wBG-HJ-ryd"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="B1F-tp-PIk"/>
+                                <exclude reference="KO6-4L-4ee"/>
+                                <exclude reference="wBG-HJ-ryd"/>
+                                <exclude reference="2ru-wQ-4RA"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="theLabel" destination="Ikj-q8-Ogu" id="Qga-NB-xOF"/>
