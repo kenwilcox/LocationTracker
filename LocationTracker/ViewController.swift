@@ -7,9 +7,13 @@
 //
 
 import UIKit
+import MapKit
 
 class ViewController: UIViewController {
 
+  @IBOutlet weak var theMap: MKMapView!
+  @IBOutlet weak var theLabel: UILabel!
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.

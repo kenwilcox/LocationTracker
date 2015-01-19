@@ -35,6 +35,10 @@
                             <constraint firstItem="u6Q-EF-Z7k" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="pGL-IQ-E7I"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="theLabel" destination="Ikj-q8-Ogu" id="Qga-NB-xOF"/>
+                        <outlet property="theMap" destination="u6Q-EF-Z7k" id="SCZ-Im-tpI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
