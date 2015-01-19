@@ -32,7 +32,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
     
     // Setup Map View
     theMap.delegate = self
-    theMap.mapType = .Satellite
+    theMap.mapType = .Standard
     theMap.showsUserLocation = true
   }
 
