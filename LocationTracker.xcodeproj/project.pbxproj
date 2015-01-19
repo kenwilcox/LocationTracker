@@ -13,6 +13,7 @@
 		BE1CE3001A6C8A3F00400546 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE1CE2FF1A6C8A3F00400546 /* Images.xcassets */; };
 		BE1CE3031A6C8A3F00400546 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1CE3011A6C8A3F00400546 /* LaunchScreen.xib */; };
 		BE1CE30F1A6C8A3F00400546 /* LocationTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1CE30E1A6C8A3F00400546 /* LocationTrackerTests.swift */; };
+		BE1CE31A1A6C916900400546 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BE1CE3181A6C916900400546 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,8 @@
 		BE1CE3081A6C8A3F00400546 /* LocationTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE1CE30D1A6C8A3F00400546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE1CE30E1A6C8A3F00400546 /* LocationTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTrackerTests.swift; sourceTree = "<group>"; };
+		BE1CE3181A6C916900400546 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BE1CE3191A6C916900400546 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,8 @@
 		BE1CE2EA1A6C8A3F00400546 = {
 			isa = PBXGroup;
 			children = (
+				BE1CE3181A6C916900400546 /* LICENSE */,
+				BE1CE3191A6C916900400546 /* README.md */,
 				BE1CE2F51A6C8A3F00400546 /* LocationTracker */,
 				BE1CE30B1A6C8A3F00400546 /* LocationTrackerTests */,
 				BE1CE2F41A6C8A3F00400546 /* Products */,
@@ -194,6 +199,7 @@
 			files = (
 				BE1CE2FE1A6C8A3F00400546 /* Main.storyboard in Resources */,
 				BE1CE3031A6C8A3F00400546 /* LaunchScreen.xib in Resources */,
+				BE1CE31A1A6C916900400546 /* LICENSE in Resources */,
 				BE1CE3001A6C8A3F00400546 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
