@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -19,20 +20,24 @@
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="u6Q-EF-Z7k">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </mapView>
-                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999964" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ikj-q8-Ogu">
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999964" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ikj-q8-Ogu">
                                 <rect key="frame" x="16" y="522" width="568" height="70"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="12"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ikj-q8-Ogu" secondAttribute="bottom" constant="8" symbolic="YES" id="2ru-wQ-4RA"/>
                             <constraint firstAttribute="trailing" secondItem="u6Q-EF-Z7k" secondAttribute="trailing" id="6Il-Rb-LiL"/>
+                            <constraint firstItem="Ikj-q8-Ogu" firstAttribute="centerX" secondItem="u6Q-EF-Z7k" secondAttribute="centerX" id="B1F-tp-PIk"/>
                             <constraint firstItem="u6Q-EF-Z7k" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Dxn-V4-oMy"/>
+                            <constraint firstItem="Ikj-q8-Ogu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="KO6-4L-4ee"/>
                             <constraint firstItem="u6Q-EF-Z7k" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="c45-5f-JEO"/>
                             <constraint firstItem="u6Q-EF-Z7k" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="pGL-IQ-E7I"/>
+                            <constraint firstItem="Ikj-q8-Ogu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="502" id="wBG-HJ-ryd"/>
                         </constraints>
                     </view>
                     <connections>
